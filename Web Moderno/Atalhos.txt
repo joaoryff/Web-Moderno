@@ -1,0 +1,35 @@
+alt + seta para baixo    --- duplica
+alt   seta   muda a posicao do....
+
+div#conteudo 
+div.estilo-1 
+div#test.estilo-2 
+input:radio    type radio
+img[src]
+p[leo-epa]
+p[leo-test]#texto.estilo-3
+p[v-else-if=anonimo]    <p v-else-if="anonimo"></p>
+
+
+crtl alt n faz rodar
+... traz tudo 
+
+
+shift alt f  organiza o codigo
+
+crtl d       muda todas as ocorrencias
+
+
+url ? divide parametro
+
+https://www.google.com.br/search?q=linux&hl=pt-BR
+
+document.querySelector('.fundoVermelho')
+
+
+
+http-server .
+CTRL C
+http-server stopped.
+http-server -c-1 . desabilitar o cache
+http-server -c10 .  desabilitar o cache 10s

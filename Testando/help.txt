@@ -1,0 +1,9 @@
+relative to the HTML page   absolute
+
+div > p   encosta
+
+div + p depois direto
+
+div ~ p  depois todos
+
+
