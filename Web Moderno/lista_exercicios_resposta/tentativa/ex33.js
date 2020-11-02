@@ -10,8 +10,10 @@ function conc(...args) {
     for (let i = 0; i < args.length; i++) {
         // for (let j = 0; j < args[i].length; j++) {
         //     txt2 = args[i].concat(args[i][j])
+        for (let j = 0; j < 4; j++) {
 
-        txt2.push(args[i])
+            txt2.push(args[i][j])
+        }
 
     }
 
@@ -28,3 +30,22 @@ function conc(...args) {
 
 
 conc(vInt, vStr, vDec)
+
+
+
+
+
+let vetorInteiro = [1, 2, 3, 4]
+let vetorString = ['Arthur', 'Christian', 'Yuri', 'Galdino']
+let vetorDouble = [1.1, 2.2, 3.3, 4.4]
+
+function concatenar(...args) {
+    resultado = []
+    for (let i = 0; i < arguments.length; i++) {
+        resultado = resultado.concat(arguments[i])
+    }
+    return resultado;
+}
+
+console.log(concatenar(vetorInteiro, vetorDouble))
+console.log(concatenar(vetorDouble, vetorString))
